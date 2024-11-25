@@ -1,9 +1,11 @@
 body {
   font-family: sans-serif;
+  background-image: url(hatter.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #content {
@@ -42,6 +44,8 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
+  text-align: center;
+  line-height: 130%;
 }
 
 table,
@@ -52,4 +56,41 @@ table,
 a:link,
 a:visited {
   color: blue;
+}
+
+p{
+text-align: justify;
+text-indent: 25px;
+}
+
+.imgtitle{
+  font-style: italic;
+  height: 130%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+}
+
+th{
+  background-color: black;
+  color: white;
+}
+
+table{
+  background-color: rgba(227, 225, 233, 0.8);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 20px;
+  float: left;
+}
+
+th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 20px;
 }
